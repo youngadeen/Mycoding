@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>class work</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      section {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: aquamarine;
+        margin-top: 40px;
+        /* background-color: aqua; */
+      }
+      .me {
+        width: 400px;
+        height: 500px;
+        /* background-color: brown; */
+        color: black;
+      }
+      .you {
+        width: 400px;
+        height: 500px;
+        color: blue;
+        background-color: blueviolet;
+      }
+      h1 {
+        font-size: 60px;
+      }
+      button {
+        border: 0;
+        height: 40px;
+        width: 150px;
+        background-color: transparent;
+      }
+      .hi {
+        color: white;
+        background-color: black;
+        font: 40px;
+        height: 40px;
+        margin-right: 5px;
+        width: 150px;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      @media screen and (max-width: 800px) {
+      section {
+          display: block;
+          padding: 0 10px;
+          height: 1050px;
+          /* width: 100%; */
+        }
+       .me{
+        width: 100%;
+       }
+       .you{
+        width: 100%
+       }
+       p{
+        text-align: center;
+       }
+      } 
+   
+      .me{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    } 
+    @media screen and (max-width:500px) {
+      h1{
+        font-size: 3rem;
+        line-height: 50px;
+        letter-spacing: 2px;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="me">
+        <h1>
+          Life is short <br />
+          and the world <br />
+          is wide !!!
+        </h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident,<br>
+          tenetur saepe hic aspernatur assumenda deserunt.
+        </p>
+         <div class="dozen">
+        <button class="hi">Plan a trip</button>
+        <button>Watch a video</button>
+      </div>
+      </div>
+      <div class="you">
+        <img src="/images/10476.jpg" alt="" />
+      </div>
+    </section>
+  </body>
+</html>
